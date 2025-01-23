@@ -1,0 +1,25 @@
+{
+    "name": "dribble-dev",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint .",
+        "format": "prettier --write .",
+        "prepare": "husky",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/js": "^9.18.0",
+        "eslint": "^9.18.0",
+        "globals": "^15.14.0",
+        "husky": "^9.1.7",
+        "prettier": "^3.4.2",
+        "typescript": "^5.7.3",
+        "lint-staged": "^15.4.2",
+        "typescript-eslint": "^8.21.0"
+    }
+}
