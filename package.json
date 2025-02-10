@@ -14,12 +14,16 @@
     "license": "ISC",
     "devDependencies": {
         "@eslint/js": "^9.18.0",
-        "eslint": "^9.18.0",
+        "eslint": "^9.19.0",
         "globals": "^15.14.0",
         "husky": "^9.1.7",
         "lint-staged": "^15.4.2",
         "prettier": "^3.4.2",
         "typescript": "^5.7.3",
         "typescript-eslint": "^8.21.0"
-    }
+    },
+    "eslintIgnore": [
+        "dist/",
+        "dist/**/*"
+    ]
 }

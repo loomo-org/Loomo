@@ -1,4 +1,4 @@
-Alternative: Using yarn
+Using yarn
 
 Lint: yarn lint
 Format: yarn format
